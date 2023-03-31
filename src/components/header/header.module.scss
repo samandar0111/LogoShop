@@ -1,4 +1,142 @@
 
 .bgc{
   background-color: var(--mainColor);
+  
+}
+.card{
+  padding: 10px 0;
+  display: flex ;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+.logo{
+  background-color: #fff;
+  color: var(--mainColor);
+  padding: 15px;
+  max-width: 150px;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 900;
+ 
+  >span{
+    color: #D92E15;
+  }
+}
+.katalog{
+  background-color: #fff;
+  padding: 10px 5px;
+  max-width: 150px;
+  border-radius: 8px;
+  font-weight: 900;
+  border: transparent;
+  display: flex;
+  align-items: center ;
+  gap: 8px;
+  color: var(--mainColor);
+  cursor: pointer;
+  font-size: 20px;
+}
+.forr{
+  display: flex;
+background-color: #fff;
+padding: 3px;
+border-radius: 8px;
+width: 450px;
+}
+.inp{
+  padding: 7px 15px;
+  font-size: 18px;
+width: 100%;
+  border: transparent;
+  
+}
+.inp:focus {
+  outline: none;
+}
+.serch_btn{
+background-color: #D92E15;
+border: transparent;
+border-radius: 8px;
+width: 50px;
+}
+.like{
+color: #fff;
+display: flex;
+font-size: 25px;
+align-items: center ;
+gap: 10px;
+>div{
+  background-color: #fff;
+width: 48px;
+height: 48px;
+align-items:center ;
+display: flex;
+justify-content: center;
+border-radius: 8px;
+}
+}
+.tell{
+  color: #fff;
+  display: flex;
+  font-size: 25px;
+  align-items: center ;
+  min-width: 253px;
+gap: 10px;
+>div{
+  background-color: #fff;
+width: 48px;
+height: 48px;
+align-items:center ;
+display: flex;
+justify-content: center;
+border-radius: 8px;
+
+}
+}
+@media only screen and (max-width: 1200px) {
+  .logo{
+    font-size: 16px;
+    padding: 12px;
+  }
+  .katalog{
+    font-size: 16px;
+    padding: 10px;
+  }
+  .inp{
+    font-size: 16px;
+    padding: 3px 8px;
+  }
+  .like{
+    font-size: 20px;
+    >div{
+      width: 40px;
+      height: 40px;
+    }
+  }
+  .tell{
+font-size: 18px;
+min-width: 190px;
+    >div{
+      width: 40px;
+      height: 40px;
+    }
+  }
+  
+}
+@media only screen and (max-width: 992px){
+  .katalog{
+    display: none;
+  }
+ .forr{
+  display: none;
+
+ } 
+ .like{
+  display: none;
+ }
+ .tell{
+  display: none;
+ }
 }
