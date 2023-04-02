@@ -1,0 +1,49 @@
+.box{
+  margin-top: 0px;
+  position: relative;
+}
+.card{
+
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  width: 180px;
+  padding: 0 15px;
+  gap: 10px;
+  box-shadow: 0px 0px 5px rgba(67, 69, 80, 0.221);
+  transition: all .3s ease;
+  >h3{
+    color: rgba(41, 32, 32, 0.735);
+  }
+}
+.card:hover{
+  box-shadow: 0px 0px 5px rgba(67, 69, 80, 0.363);
+}
+.swip{
+  padding: 16px 0;
+}
+.prev{
+width: 40px;
+height: 40px;
+background-color: aqua;
+display: block;
+position: absolute;
+top: 25px;
+border-radius: 50%;
+left: -10px;
+text-align: center;
+padding: 5px 0;
+}
+.prev1{
+  width: 40px;
+  height: 40px;
+  background-color:aqua ;
+  display: block;
+  position: absolute;
+  top: 25px;
+  border-radius: 50%;
+ right: -10px;
+
+text-align: center;
+padding: 5px 0;
+  }

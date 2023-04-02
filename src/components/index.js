@@ -1,3 +1,4 @@
 import MainLayout from "./mainLayout/layout";
-
-export {MainLayout}
+import Card from "./card/card";
+import CotegorSlide from "./cotegorSlider/cotegorSlide";
+export {MainLayout,Card,CotegorSlide}

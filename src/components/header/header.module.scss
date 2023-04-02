@@ -13,7 +13,7 @@
 .logo{
   background-color: #fff;
   color: var(--mainColor);
-  padding: 15px;
+  padding: 10px;
   max-width: 150px;
   text-align: center;
   border-radius: 8px;
@@ -26,7 +26,7 @@
 }
 .katalog{
   background-color: #fff;
-  padding: 10px 5px;
+  padding: 6px 7px;
   max-width: 150px;
   border-radius: 8px;
   font-weight: 900;
@@ -69,13 +69,16 @@ align-items: center ;
 gap: 10px;
 >div{
   background-color: #fff;
-width: 48px;
-height: 48px;
+width: 40px;
+height: 40px;
 align-items:center ;
 display: flex;
 justify-content: center;
 border-radius: 8px;
 }
+}
+.menu{
+  display: none;
 }
 .tell{
   color: #fff;
@@ -86,8 +89,8 @@ border-radius: 8px;
 gap: 10px;
 >div{
   background-color: #fff;
-width: 48px;
-height: 48px;
+width: 40px;
+height: 40px;
 align-items:center ;
 display: flex;
 justify-content: center;
@@ -139,4 +142,23 @@ min-width: 190px;
  .tell{
   display: none;
  }
+ .menu{
+  display: block;
+ }
+}
+.navbarbg{
+  background-color: #D92E15;
+}
+.navbar{
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 13px 0;
+}
+.link{
+  font-size: 15px;
+>a{
+  color: #fff;
+}
 }
