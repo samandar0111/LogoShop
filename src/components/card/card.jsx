@@ -2,11 +2,11 @@ import React from 'react'
 import card from "./card.module.scss"
 import karzina from "../../../public/karzinacard.png"
 import Image from 'next/image'
-const Card = (arr) => {
+const Card = () => {
 
     return (
    
-        <div className='container'>
+        <div className=''>
           <div className={card.box}>
             <div className={card.imgblock}>
            <img src="https://texnomart.uz/_ipx/f_webp/https://backend.texnomart.uz/images/gallery/product/102038/32767/preview.jpg" alt="" />

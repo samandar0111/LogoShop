@@ -1,0 +1,47 @@
+.bgc{
+  background-color: #dee3e336;
+}
+.title{
+  text-align: center;
+  font-size:27px;
+  color: var(--mainColor  );
+  margin-top: 60px;
+}
+.slid{
+  margin-top: 0px;
+  padding: 15px;
+ position: relative;
+}
+.swiper{
+  padding: 10px 0;
+}
+.prev{
+ top: 40%;
+border-radius: 50%;
+width: 50px;
+height: 50px;
+z-index: 2; 
+position: absolute;
+text-align: center;
+padding: 9px 0;
+left: 2%;
+box-shadow: 0 0 7px #474040;
+}
+.prev1  {
+  top: 40%;
+  box-shadow: 0 0 7px #474040;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  z-index: 2; 
+  position: absolute;
+  text-align: center;
+  right: 2%;
+  padding: 8px 0;
+}
+.clik{
+  z-index: 1;
+}
+.aksiyaslid{
+  margin-top: 20px;
+}

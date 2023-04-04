@@ -1,4 +1,5 @@
 import MainLayout from "./mainLayout/layout";
 import Card from "./card/card";
 import CotegorSlide from "./cotegorSlider/cotegorSlide";
-export {MainLayout,Card,CotegorSlide}
+import AksiyaCard from "./aksiyaCard/aksiyaCard";
+export {MainLayout,Card,CotegorSlide,AksiyaCard}

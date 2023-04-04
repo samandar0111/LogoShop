@@ -1,7 +1,15 @@
 
 .bgc{
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+}
+.navbarbg{
+  margin-top: 62px;
+}
+.fixx{
   background-color: var(--mainColor);
-  
 }
 .card{
   padding: 10px 0;
@@ -9,6 +17,8 @@
   justify-content: space-between;
   gap: 20px;
   align-items: center;
+
+  
 }
 .logo{
   background-color: #fff;
@@ -77,6 +87,7 @@ justify-content: center;
 border-radius: 8px;
 }
 }
+
 .menu{
   display: none;
 }
@@ -98,6 +109,7 @@ border-radius: 8px;
 
 }
 }
+
 @media only screen and (max-width: 1200px) {
   .logo{
     font-size: 16px;

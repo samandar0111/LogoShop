@@ -1,0 +1,38 @@
+.box{
+  display: flex;
+  max-width: 450px;
+
+border-radius: 10px;
+overflow: hidden;
+border: 1px solid  rgba(0,0,0,.2);
+
+}
+.imag{
+  max-width: 200px;
+  >img{
+    width: 100%;
+  }
+}
+.textbox{
+  padding: 10px;
+  
+  >h3{
+    color:var(--mainColor) ;
+    font-size: 20px;
+  }
+
+}
+.shart{
+  display: block;
+  font-size: 18px;
+  color: #0000007f;
+  margin: 6px 0;
+}
+.holat{
+  margin-right: 10px;
+  font-size: 18px;
+}
+.aktiv{
+  font-size: 18px;
+  color: red;
+}

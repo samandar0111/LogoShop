@@ -1,6 +1,8 @@
 .box{
   margin-top: 0px;
   position: relative;
+ 
+
 }
 .card{
 
@@ -8,10 +10,13 @@
   align-items: center;
   border-radius: 10px;
   width: 180px;
-  padding: 0 15px;
+  padding: 10px 15px;
   gap: 10px;
   box-shadow: 0px 0px 5px rgba(67, 69, 80, 0.221);
   transition: all .3s ease;
+  cursor: pointer;
+  z-index: 1;
+  background-color: #fff;
   >h3{
     color: rgba(41, 32, 32, 0.735);
   }
@@ -25,25 +30,29 @@
 .prev{
 width: 40px;
 height: 40px;
-background-color: aqua;
+box-shadow: 0 0 7px #474040;
 display: block;
 position: absolute;
 top: 25px;
 border-radius: 50%;
 left: -10px;
 text-align: center;
+z-index: 2;
 padding: 5px 0;
 }
 .prev1{
   width: 40px;
   height: 40px;
-  background-color:aqua ;
+  box-shadow: 0 0 7px #474040;
   display: block;
   position: absolute;
   top: 25px;
   border-radius: 50%;
  right: -10px;
-
+z-index: 2;
 text-align: center;
 padding: 5px 0;
+  }
+  .clik{
+    z-index: 1;
   }

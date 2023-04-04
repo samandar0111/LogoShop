@@ -12,6 +12,8 @@ const Header = () => {
   return (
     <>
     <div className={header.bgc}>
+      <div className={header.fixx}>
+
     <div className="container">
       <div className={header.card}>
         <Link href="/">
@@ -28,7 +30,9 @@ const Header = () => {
           <div className={header.menu}><Image src={menu} alt='' width={30} height={30} /></div>
       </div>
     </div>
+      </div>
     </div>
+
     <div className={header.navbarbg}>
     <ul className={header.navbar}>
       <li className={header.link}> <Link href="aksiya">aksiya</Link> </li>

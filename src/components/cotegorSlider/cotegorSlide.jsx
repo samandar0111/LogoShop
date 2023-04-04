@@ -9,22 +9,22 @@ import icon from "../../../public/tv.png"
 import style from "./cotegor.module.scss"
 import left from "../../../public/left.svg"
 import right from "../../../public/right.svg"
-import { Ribeye } from "next/font/google";
+
 const CotegorSlide = () => {
   return (
     <div className='container'>
       
       <div className={style.box}>
-        <span className={style.prev} data-swiper='prev'><Image src={left} alt="" width={30} height={30} /></span>
-        <span className={style.prev1} data-swiper='next'><Image src={right} alt="" width={30} height={30} /></span>
+        <span className={style.prev} data-swiper='prev1'><Image className={style.clik} src={left} alt="" width={30} height={30} /></span>
+        <span className={style.prev1} data-swiper='next1'><Image className={style.clik} src={right} alt="" width={30} height={30} /></span>
       <Swiper
       
-        spaceBetween={10}
+        spaceBetween={10} 
         slidesPerView={7}
       
         navigation={{
-          nextEl: 'span[data-swiper=next]',
-          prevEl: 'span[data-swiper=prev]'
+          nextEl: 'span[data-swiper=next1]',
+          prevEl: 'span[data-swiper=prev1]'
         }}
        
         modules={[Navigation, Pagination]}
