@@ -2,7 +2,7 @@
 import { MainLayout,Card,AksiyaCard } from '@/components' 
 import Slider from '@/components/slider/slider'
 import { CotegorSlide } from '@/components'
-import home from "../styles/Home.module.css"
+import home from "../styles/Home.module.scss"
 import { Swiper, SwiperSlide } from "swiper/react";
 import {Autoplay, Navigation, Pagination } from "swiper";
 import "swiper/css";
@@ -53,6 +53,7 @@ export default function Home() {
     </div>
 
     <div>
+      <div className={home.ommaboprek}><img src="https://www.mediapark.uz/upload/file/sliders/main_slides/brend_samsung_1539x209.webp" alt="omabop tovarlar" /></div>
       <h2 className={home.title}>Ommabop tovarlar</h2>
       <div className={home.slid}>
 
@@ -81,6 +82,11 @@ export default function Home() {
     </div>
     </div>
     <div>
+      <div className={home.elektrrek}>
+        <img src="https://olcha.uz/image/460x152/homePage/JM9SdxNOgnlldqEx7MCxb150OcX2eV1CWv8jBoCi7YiaV95IxL0wYrWUlHoC.png" alt="" />
+        <img src="https://olcha.uz/image/460x152/homePage/g75RQWzkeoqf5iY2KTgi0fUFpC90vWuRbBA9IuX4tIvn90WVwiaK3VdM4Je1.png" alt="" />
+        <img src="https://olcha.uz/image/460x152/homePage/Y1hpOReoQtgWutcO2hNiYo9ddlxLpgHSWI1Hwpk54EAsZnUXyUHG2Iu3gd3r.png" alt="" />
+      </div>
       <h2 className={home.title}>Elektronika</h2>
       <div className={home.slid}>
 
@@ -109,6 +115,10 @@ export default function Home() {
     </div>
     </div>
     <div>
+      <div className={home.uyrek}>
+        <img src="https://olcha.uz/image/original/homePage/RAJmH8sUxrz1yR6pd4U2ei9kifqcvYDZzc4f13YWaRh41hefrG7CjtO1zvDi.png" alt="" />
+        <img src="https://olcha.uz/image/original/homePage/THReB1ZE9w84GpLt0yBN7tAbLwSlcjXr3Ky5rWjud4ZBv7M8WEc7VgLL0D8F.png" alt="" />
+      </div>
       <h2 className={home.title}>Uy Jihozlari</h2>
       <div className={home.slid}>
 
@@ -141,7 +151,7 @@ export default function Home() {
 
 
     <div className={home.box}>
-
+        <div className={home.aksiyarek}><img src="https://olcha.uz/image/original/homePage/FOcsDOqCfmndNu3PGBGbtRHiJ6bwxslDrwt2gQK8gD9JtCu3xkRA2Yr4lndn.png" alt="" /></div>
       <h3 className={home.title}>Aksiya</h3>
       <Swiper
       loop

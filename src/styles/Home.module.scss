@@ -45,3 +45,34 @@ box-shadow: 0 0 7px #474040;
 .aksiyaslid{
   margin-top: 20px;
 }
+.ommaboprek{
+max-width: 100%;
+overflow: hidden;
+text-align: center;
+  border-radius: 10px;
+  margin: 30px 0;
+}
+.box{
+  margin-bottom: 40px;
+}
+.elektrrek{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+ >img{
+  border-radius: 8px;
+ }
+}
+.uyrek{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  >img{border-radius: 10px;}
+}
+.aksiyarek{
+  margin-top: 30px;
+  margin-bottom: -10px;
+>img{
+  border-radius: 10px;
+}
+}
