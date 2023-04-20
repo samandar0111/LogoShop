@@ -1,0 +1,11 @@
+.bar{
+  max-width: 300px;
+  background-color: aqua;
+  padding: 10px;
+  >div{
+    font-size: 18px;
+   padding: 5px 0;
+    cursor: pointer;
+  }
+
+}

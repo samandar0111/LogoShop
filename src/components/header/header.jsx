@@ -8,6 +8,7 @@ import karzina from "../../../public/karzina.png"
 import tell from "../../../public/tell.png"
 import menu from "../../../public/menu.png"
 import Link from 'next/link'
+import Katalogcard from '../katalog/katalog'
 const Header = () => {
   return (
     <>
@@ -43,6 +44,7 @@ const Header = () => {
       <li className={header.link}><Link href="adres">Do'kon manzillari</Link></li>
     </ul>
     </div>
+    <Katalogcard/>
     </>
   )
 }
